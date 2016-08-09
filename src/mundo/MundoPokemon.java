@@ -12,6 +12,9 @@ public class MundoPokemon {
 
     public MundoPokemon(){
         elementos= new double[18][18];
+
+        //cree la tabla y para cada celda agregué el valor que le corresponde.
+
         //Primera Fila (atk normal)
         elementos[Tipos.NORMAL.darElem()][Tipos.NORMAL.darElem()]=1;
         elementos[Tipos.NORMAL.darElem()][Tipos.FUEGO.darElem()]=1;
